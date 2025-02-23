@@ -128,7 +128,7 @@ export const WaitlistDialog = ({ children }: WaitlistDialogProps) => {
                 </FormItem>
               )}
             />
-            <Button type="submit" asChild>
+            <Button type="submit">
                 <span className="group inline-flex items-center">
                   Entrar na lista de espera
                   <ChevronRightIcon className="ml-1 size-4 transition-transform duration-300 group-hover:translate-x-1" />

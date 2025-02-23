@@ -16,6 +16,8 @@ export const SubmitWaitlist = async (data: WaitlistDialogFormType) => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`)
     }
+
+    console.log(await response.json())
   } catch (error) {
     console.error(`Can't submit waitlist: ${error}`)
   }
